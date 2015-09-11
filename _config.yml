@@ -164,7 +164,7 @@ baidu_analytics_id: 0b7359c0bb941a4263c13235c8071d80
 # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
 gravatar_email:
 # Your swiftype install key
-swiftype_install_key:
+swiftype_install_key: UsvwPt2qMukpWQJCgidM
 # Your Facebook user ids used to connect your blog with your facebook user accounts (Facebook Insights). Separate ids with comma. e.g : 9830047,1003342
 fb_admin_ids:
 # Your Facebook app id used to connect your blog with your facebook app account (Facebook Insights). E.g : 9841307
