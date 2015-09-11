@@ -77,6 +77,7 @@ If you want to report a bug or ask a question, [create an issue](https://github.
   
 **Integrated services :**  
 - Disqus  
+- DuoShuo
 - Google analytics  
 - Baidu analytics 
 - Gravatar  
@@ -314,6 +315,7 @@ The same page with `category_pagination: false`:
 ``` yaml
 # Integrated services
 disqus_shortname:
+duoshuo_shortname:
 gravatar_email: 
 google_analytics_id:  
 baidu_analytics_id:  
@@ -322,6 +324,7 @@ fb_admin_ids:
 fb_app_id:
 ```
 - **disqus_shortname**: Your Disqus shortname. The theme use its own value for disqus shortname to reduce dependency with Hexo in case of this variable is deleted in a new Hexo version.  
+- **duoshuo_shortname**: Your DuoShuo shortname.
 - **gravatar_email**: Your gravatar email. Overwrite `author.picture` everywhere in the blog  
 - **google_analytics_id** : Your Google analystics web property ID : UA-XXXXX-X  
 - **baidu_analytics_id** : Your Baidu analystics web property ID : UA-XXXXX-X  

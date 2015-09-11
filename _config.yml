@@ -155,6 +155,8 @@ tag_pagination: true
 # Integrated services
 # Your Disqus shortname
 disqus_shortname:
+# Your DuoShuo shortname
+duoshuo_shortname: blackops
 # Your Google analystics web property ID : UA-XXXXX-X
 google_analytics_id:
 # Your Biadu analystics web property ID : UA-XXXXX-X

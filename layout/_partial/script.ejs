@@ -16,6 +16,19 @@
         })();
     </script>
 <% } %>
+<% if (theme.duoshuo_shortname && is_post() && post.comments) { %>
+    <script type="text/javascript">
+        var duoshuoQuery = {short_name: '<%= theme.duoshuo_shortname %>'};
+        (function() {
+            var ds = document.createElement('script');
+            ds.type = 'text/javascript';ds.async = true;
+            ds.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//static.duoshuo.com/embed.js';
+            ds.charset = 'UTF-8';
+            (document.getElementsByTagName('head')[0] 
+             || document.getElementsByTagName('body')[0]).appendChild(ds);
+        })();
+    </script>
+<% } %>
 <% if (theme.swiftype_install_key) { %>
     <script type="text/javascript">
         (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
